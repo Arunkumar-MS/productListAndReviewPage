@@ -1,8 +1,8 @@
 // Config Section
 
 var config = {
-    PRODUCT_URL: 'http://flipkart9jun.mockable.io/products',
-    REEVIEW_URL: 'http://flipkart9jun.mockable.io/reviews/',
+    PRODUCT_URL: 'http://localhost:4000/products',
+    REEVIEW_URL: 'http://localhost:4000/review/',
     MAX_STARS: 5,
     MAX_SHOW_REVIEW: 10,
     MAX_CHAR_PER_LINE: 100,
