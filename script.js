@@ -1,8 +1,8 @@
 // Config Section
 
 var config = {
-    PRODUCT_URL: 'http://localhost:4000/products',
-    REEVIEW_URL: 'http://localhost:4000/review/',
+    PRODUCT_URL: 'https://product-list-js.herokuapp.com/products',
+    REEVIEW_URL: 'https://product-list-js.herokuapp.com/review/',
     MAX_STARS: 5,
     MAX_SHOW_REVIEW: 10,
     MAX_CHAR_PER_LINE: 100,
@@ -284,4 +284,6 @@ function saveReviews() {
         reviewTitle
     };
     setlocalStorage(inMemory.SELECTED_PRODUCT, reviewDetails);
+    mergeReview();
+    reviewItems();
 }
