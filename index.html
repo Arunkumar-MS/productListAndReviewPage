@@ -1,0 +1,71 @@
+<html>
+<head>
+    <title>
+        Product List
+    </title>
+</head>
+
+<body onload="onLoad()">
+    <div class="container">
+        <div id="tiles"></div>
+        <div id="review">
+            <div class="rateProduct">
+                <div class="starSection">
+                    <div class="subTitle">
+                        <strong>Rate this product</strong>
+                    </div>
+                    <div class="reviewStarts">
+                        <div id="star">
+                        </div>
+                        <span id="startText"> </span>
+                    </div>
+                </div>
+                <hr class="hr">
+                <div class="reviewDiscriptionSection">
+                    <div class="subTitle">
+                        <strong>Review this product</strong>
+                    </div>
+                    <div class="discriptionWrapper">
+                        <div class="discription">
+                            <div class="discriptionTitle right">
+                                <span>Description cannot be empty</span>
+                            </div>
+                            <div class="discriptionTitle">
+                                <span>Description</span>
+                            </div>
+                            <textarea id="discriptionData" rows="8" placeholder="Description..." class="discriptionArea"></textarea>
+                            <div id="error"></div>
+                        </div>
+                        <hr class="hr">
+                        <div class="reviewFooter">
+                            <div class="reviewFooterTitle">
+                                <strong>Title (optional)</strong>
+                            </div>
+                            <input id="titleData" r value="" placeholder="Review title..." class="titleInput">
+                        </div>
+                    </div>
+                </div>
+                <button onclick="saveReviews()" class="btn">SUBMIT</button>
+            </div>
+            <div class="allReviewWrapper">
+                <div class="subTitle">
+                    <strong>All Reviews</strong>
+                </div>
+                <hr class="hr">
+                <div>
+                    <div id='col' class="col">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    <span style="display: none;">☆</span>
+    <script src="script.js"></script>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+</body>
+
+</html>
