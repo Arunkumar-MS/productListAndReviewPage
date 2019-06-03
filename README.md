@@ -1,3 +1,3 @@
 *ToDo:*
 - responsive ui
-- responsive ui
+- infinite scroll
